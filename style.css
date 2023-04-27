@@ -1,0 +1,45 @@
+:root {
+    /* --ff-all: "Hanken Grotesk", sans-serif; */
+    --clr-prim-lr: hsl(0, 100%, 67%);
+    --clr-prim-oy: hsl(39, 100%, 56%);
+    --clr-prim-gt: hsl(166, 100%, 37%);
+    --clr-prim-cb: hsl(234, 85%, 45%);
+    --clr-nue-w: hsl(0, 0%, 100%);
+    --clr-nue-pb: hsl(211, 100%, 96%);
+    --clr-nue-ll: hsl(241, 100%, 89%);
+    --clr-nue-dgb: hsl(224, 30%, 27%);
+    /* color for gradient */
+    --clr-grd-lsb: hsl(252, 100%, 67%);
+    --clr-grd-rlb: hsl(241, 81%, 54%);
+    --clr-grd-vb: hsla(256, 72%, 46%, 1);
+    --clr-grd-pb: hsla(241, 72%, 46%, 0);
+}
+
+@font-face {
+    font-family: "Hanken Grotesk", sans-serif;
+    src: url("https://fonts.google.com/specimen/Hanken+Grotesk");
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+.first_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, var(--clr-grd-lsb), var(--clr-grd-vb));
+    border-radius: 0 0 1em 1em;
+    padding: 2em 0;
+}
