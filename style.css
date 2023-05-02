@@ -1,13 +1,18 @@
 :root {
     /* --ff-all: "Hanken Grotesk", sans-serif; */
     --clr-prim-lr: hsl(0, 100%, 67%);
+    --clr-prim-llr: hsla(0, 100%, 97%);
     --clr-prim-oy: hsl(39, 100%, 56%);
+    --clr-prim-loy: hsl(39, 100%, 96%);
     --clr-prim-gt: hsl(166, 100%, 37%);
+    --clr-prim-lgt: hsl(166, 100%, 97%);
     --clr-prim-cb: hsl(234, 85%, 45%);
+    --clr-prim-lcb: hsl(234, 85%, 95%);
     --clr-nue-w: hsl(0, 0%, 100%);
     --clr-nue-pb: hsl(211, 100%, 96%);
     --clr-nue-ll: hsl(241, 100%, 89%);
     --clr-nue-dgb: hsl(224, 30%, 27%);
+    --clr-nue-ldgb: hsl(224, 30%, 67%);
     /* color for gradient */
     --clr-grd-lsb: hsl(252, 100%, 67%);
     --clr-grd-rlb: hsl(241, 81%, 54%);
@@ -31,7 +36,7 @@ body {
 }
 
 p {
-    font-size: 1.125rem;
+    /* font-size: 1.125rem; */
 }
 
 .first_container {
@@ -84,4 +89,98 @@ p {
     font-size: 1rem;
     width: 70%;
     color: var(--clr-nue-ll);
+}
+
+.second_container {
+    padding: 2em;
+}
+
+.summary {
+    font-weight: 800;
+}
+
+.metric {
+    margin-top: .8em;
+    padding: 1em;
+    border-radius: .5em;
+    background: blue;
+    display: flex;
+    /* justify-content: space-between; */
+    color: var(--clr-nue-dgb);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.metric_reaction {
+    background: var(--clr-prim-llr);
+}
+
+.metric_memory {
+    background: var(--clr-prim-loy);
+
+}
+
+.metric_verbal {
+    background: var(--clr-prim-lgt);
+}
+
+.metric_visual {
+    background: var(--clr-prim-lcb)
+}
+
+.metric_name {
+    width: 65%;
+    padding-left: 1em;
+}
+
+.reaction {
+    color: var(--clr-prim-lr);
+}
+
+.memory {
+    color: var(--clr-prim-oy);
+}
+
+.verbal {
+    color: var(--clr-prim-gt);
+}
+
+.visual {
+    color: var(--clr-prim-cb);
+}
+
+.rating {
+    font-weight: 700;
+    justify-self: flex-end;
+}
+
+span {
+    color: var(--clr-nue-dgb);
+}
+
+.rating {
+    color: var(--clr-nue-ldgb);
+}
+
+button {
+    font-size: .9rem;
+    background: var(--clr-nue-dgb);
+    border: none;
+    margin-top: 2em;
+    width: 100%;
+    border-radius: 2em;
+    padding: 1.5em;
+    color: var(--clr-nue-w);
+    font-weight: 700;
+}
+
+.attribution {
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(0, 100%, 67%)
 }
