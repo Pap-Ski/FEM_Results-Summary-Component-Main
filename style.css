@@ -169,9 +169,14 @@ button {
     margin-top: 2em;
     width: 100%;
     border-radius: 2em;
-    padding: 1.5em;
+    padding: 1.2em;
     color: var(--clr-nue-w);
     font-weight: 700;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, var(--clr-grd-lsb), var(--clr-grd-rlb));
+    cursor:p
 }
 
 .attribution {
@@ -183,4 +188,46 @@ button {
 .attribution a {
     text-decoration: none;
     color: hsl(0, 100%, 67%)
+}
+
+@media screen and (min-width: 375px) {
+    body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    main {
+        /* outline: 5px solid green; */
+        width: 50%;
+        display: flex;
+        border-radius: 2em;
+        background: var(--clr-nue-w);
+        box-shadow: .5em -.1em 20px 5px #f3f3f3;
+    }
+
+    .first_container, .second_container {
+        width: 50%;
+        border-radius: 2em;
+    }
+
+    .first_container {
+        gap: 1em;
+    }
+
+    .circle_container {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .remark_explained {
+        text-align: center;
+        width: 65%;
+    }
+
+    .attribution {
+        margin-top: 1em;
+    }
 }
