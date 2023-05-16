@@ -164,7 +164,7 @@ span {
 
 button {
     font-size: .9rem;
-    background: var(--clr-nue-dgb);
+    background-color: var(--clr-nue-dgb);
     border: none;
     margin-top: 2em;
     width: 100%;
@@ -172,6 +172,7 @@ button {
     padding: 1.2em;
     color: var(--clr-nue-w);
     font-weight: 700;
+    transition: background-color 10s;
 }
 
 button:hover {
@@ -190,7 +191,7 @@ button:hover {
     color: hsl(0, 100%, 67%)
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 768px) {
     body {
         min-height: 100vh;
         display: flex;
@@ -201,7 +202,7 @@ button:hover {
 
     main {
         /* outline: 5px solid green; */
-        width: 50%;
+        width: min(45rem, 95%);
         display: flex;
         border-radius: 2em;
         background: var(--clr-nue-w);

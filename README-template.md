@@ -12,6 +12,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
   - [Author](#author)
 
 ## Overview
@@ -29,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/resultssummarycomponent-5HLIQUmUoq](https://www.frontendmentor.io/solutions/resultssummarycomponent-5HLIQUmUoq)
 - Live Site URL: [https://fem-results-summary-component-main.vercel.app/](https://fem-results-summary-component-main.vercel.app/)
 
 ## My process
@@ -40,7 +41,11 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
+### What I learned
+
+This challenge is basically a revision for me to aid in reviving my rusty proficiency in basic HTML and CSS.
+
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Nii Laryea Quartey-Papafio](https://www.linkedin.com/in/nii-laryea-quartey-papafio-229440176/)
 - Frontend Mentor - [Pap-Ski](https://www.frontendmentor.io/profile/yourusername)
