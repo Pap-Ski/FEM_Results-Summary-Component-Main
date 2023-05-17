@@ -48,4 +48,4 @@ This challenge is basically a revision for me to aid in reviving my rusty profic
 ## Author
 
 - Website - [Nii Laryea Quartey-Papafio](https://www.linkedin.com/in/nii-laryea-quartey-papafio-229440176/)
-- Frontend Mentor - [Pap-Ski](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [Pap-Ski](https://www.frontendmentor.io/profile/Pap-Ski)
